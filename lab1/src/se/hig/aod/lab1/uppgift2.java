@@ -29,7 +29,7 @@ public class uppgift2 {
             return;
         }
 
-        int[] searchSpaces = {10000, 20000, 40000, 80000, 160000, 320000, 640000, 1280000, 2560000};
+        int[] searchSpaces = {10000, 20000};
 
         for (int searchSpace : searchSpaces) {
             long totalTime = 0;
@@ -44,8 +44,8 @@ public class uppgift2 {
                         numbersToSearch.add(Integer.parseInt(line));
                         i++;
                     }
-                    Collections.shuffle(numbersToSearch);  // Studie 1
-                    // Collections.sort(numbersToSearch);  // För Studie 2
+                    // Collections.shuffle(numbersToSearch);  // Studie 1
+                    Collections.sort(numbersToSearch);  // För Studie 2
                     for (Integer num : numbersToSearch) {
                         bst.addElement(num);
                     }
