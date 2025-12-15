@@ -1,9 +1,10 @@
+package test.se.hig.aod;
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import se.hig.aod.lab1.BinarySearchTree;
+import src.se.hig.aod.lab1.BinarySearchTree;
 public class BinarySearchTreeTest {
 
 

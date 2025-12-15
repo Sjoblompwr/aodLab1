@@ -1,4 +1,4 @@
-package se.hig.aod.lab1;
+package src.se.hig.aod.lab1;
 
 public class BinarySearchTree<T extends Comparable<? super T>> implements SearchableDataStructure<T> {
 

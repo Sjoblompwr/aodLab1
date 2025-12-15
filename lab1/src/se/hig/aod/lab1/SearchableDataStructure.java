@@ -1,4 +1,4 @@
-package se.hig.aod.lab1;
+package src.se.hig.aod.lab1;
 
 /**
  * A Java interface for a searchable data structure, 
